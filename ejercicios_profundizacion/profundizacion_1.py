@@ -44,5 +44,24 @@ Alumno:
   en esas variables
 '''
 
+from __future__ import division
+from tokenize import Exponent
+
+
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+numero_1 = float(input('Ingresa el primer numero: '))
+numero_2 = float(input('Ingresa el segundo numero: '))
+
+suma = numero_1 + numero_2
+resta = numero_1 - numero_2
+multiplicacion = numero_1 * numero_2
+division = numero_1 / numero_2
+exponente = numero_1 ** numero_2
+
+print('La suma de estos numeros es: ', suma)
+print('La resta de estos dos numero es: ', resta)
+print('El producto de estos dos numero es: ', multiplicacion)
+print('La division de estos dos numero es: ', division)
+print('El exponente de estos dos numero es: ', exponente)
